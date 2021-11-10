@@ -4,7 +4,7 @@ let totalTails = 0
 let totalFlipped = 0// 0 and increment by one every time
 let headsPercentage = 0 //Figuring percentages is the worst in Javascript :)
 let tailsPercentage = 0
-//let images = ["assets/images/penny-heads.jpg", "assets/images/penny-tails.jpg"]
+
 let images = [
     {
         imagePath: "assets/images/penny-heads.jpg",
@@ -17,6 +17,7 @@ let images = [
         side: "tails"
     }
 ]
+
 let defaultMessage = "Let's Get Rolling!"
    
     // TODO: Add event listener and handler for flip and clear buttons
